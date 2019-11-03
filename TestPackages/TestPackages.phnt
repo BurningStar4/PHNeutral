@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<phntpackage>
+	<packagedetails>
+		<version>0.1</version>
+		<package_name>My First Package</package_name>
+		<package_id>2193842</package_id>
+		<package_description>This is an example package, for testing purposes.</package_description>
+		<target_environments>
+			<target>K:\Test Target</target>
+		</target_environments>
+	</packagedetails>
+	<package>
+		<directory>
+			<name>Fake bin directory</name>
+			<file>
+				<name>Empty xml.xml</name>
+				<path>K:\Test Package Files\Empty xml.xml</path>
+				<settings>
+					<fg_donotpush>0</fg_donotpush>
+					<fg_donotwatch>0</fg_donotwatch>
+				</settings>
+			</file>
+			<file>
+				<name>Important Readme.txt</name>
+				<path>K:\Test Package Files\Important Readme.txt</path>
+				<settings>
+					<fg_donotpush>0</fg_donotpush>
+					<fg_donotwatch>0</fg_donotwatch>
+				</settings>
+			</file>
+			<directory>
+				<name>Fake bin directory</name>
+			</directory>
+		</directory>
+	</package>
+</phntpackage>
